@@ -1,0 +1,25 @@
+{
+  "name": "stormer-memcached",
+  "version": "0.0.1",
+  "description": "Implementation of Stormer Store for Memcached",
+  "main": "index.js",
+  "repository": "git@github.com:Avocarrot/stormer-memcached.git",
+  "author": "Avocarrot",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.10.2"
+  },
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "find ./test -name '*.spec.js' | NODE_ENV=test xargs tape",
+    "cov": "find ./test -name '*.spec.js' | NODE_ENV=test xargs istanbul cover tape"
+  },
+  "dependencies": {
+    "memcached": "^2.2.2",
+    "stormer": "^0.10.0"
+  },
+  "devDependencies": {
+    "sinon": "^2.3.1",
+    "tape": "^4.6.3"
+  }
+}
