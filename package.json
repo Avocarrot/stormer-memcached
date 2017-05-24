@@ -7,7 +7,7 @@
   "author": "Avocarrot",
   "license": "MIT",
   "engines": {
-    "node": "6.10.2"
+    "node": ">=6.10.2"
   },
   "scripts": {
     "pretest": "eslint --ignore-path .gitignore .",
