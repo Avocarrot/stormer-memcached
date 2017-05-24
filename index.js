@@ -1,3 +1,4 @@
 const MemcachedStore = require('./lib/store');
+const MockMemcached = require('./mock');
 
-module.exports = { MemcachedStore };
+module.exports = { MemcachedStore, MockMemcached };

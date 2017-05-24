@@ -1,6 +1,6 @@
 const test = require('tape');
 const sinon = require('sinon');
-const ICache = require('../../test/mocks/cache');
+const ICache = require('../../mock');
 const MemcachedStore = require('../../lib/store');
 const { NotFoundError } = require('stormer').errors;
 
